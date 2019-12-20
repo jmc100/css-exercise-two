@@ -1,13 +1,40 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 2;
+  /*adjust the font size in one place*/
+  font-size: 18px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  /*adjust nav background color*/
+  background-color: #6B0CC9;
   float: left;
   position: fixed;
   width: 100%;
+}
+
+/*adjust the style of the image caption*/
+figcaption {
+  font-size: 15px;
+  color: #63625D;
+}
+
+/*change the style of title's text*/
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/*change the style of the subtitle's text*/
+h3 {
+  font-style:italic;
+  line-height: 1.5;
+  color: #63625D;
+}
+
+div {
+  margin: auto;
 }
 
 .logo {
@@ -50,3 +77,13 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+a{
+  text-decoration: none;
+}
+
+/*show interactive effects for the nav bar links*/
+a:link { color:#FFFFFF; }
+a:visited { color:#FBD72B; }
+a:hover { color:#FFE70A; }
+a:active { color:#FFFFFF; }
